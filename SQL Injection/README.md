@@ -1,6 +1,6 @@
 # SQL Injection
 
-Practical SQL injection exercises completed using **PortSwigger Web Security Academy** and **Burp Suite**.
+Practical SQL injection exercises completed using PortSwigger Academy.
 
 
 ## Tools Used
