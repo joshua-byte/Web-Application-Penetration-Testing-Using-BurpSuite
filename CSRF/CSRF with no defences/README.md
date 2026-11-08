@@ -6,7 +6,7 @@
 - **Lab:** CSRF vulnerability with no defenses
 
 ## Description
-The lab demonstrates a CSRF vulnerability in an authenticated account email-change function. The application does not implement effective CSRF protection.
+The lab demonstrates a CSRF vulnerability in an authenticated account email-change function.
 
 ## Methodology
 1. Logged into the application and inspected the account email-change functionality.
