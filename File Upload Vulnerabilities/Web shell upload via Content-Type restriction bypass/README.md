@@ -1,4 +1,4 @@
-# Lab 2: Web Shell Upload via Content-Type Restriction Bypass
+# Web Shell Upload via Content-Type Restriction Bypass
 
 ## Summary
 
