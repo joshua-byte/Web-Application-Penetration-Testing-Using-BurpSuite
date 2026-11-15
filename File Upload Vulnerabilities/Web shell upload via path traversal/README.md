@@ -1,7 +1,5 @@
-# Lab 3: Web Shell Upload via Path Traversal
+# Web Shell Upload via Path Traversal
 
-**Status:** Solved
-**Severity:** High
 
 ## Summary
 
@@ -22,18 +20,7 @@ up, into a location that does execute PHP.
    and returned carlos's secret.
 5. Submitted the secret to solve the lab.
 
-## Evidence
-
-See `upload_path_traversal_evidence/`:
-- `returns_plaintext.png` — payload returned as plaintext from the normal
-  avatars path.
-- `encoding_path.png` — upload request with the encoded traversal filename.
-- `carlos_secret.png` — the request/response that leaks the secret after
-  traversal.
-- `solved.png` — lab solved confirmation.
-
 ## Fix
-
 Strip/reject traversal sequences in filenames, generate the stored filename
 server-side, and canonicalise + verify the final path stays inside the
 intended directory.
