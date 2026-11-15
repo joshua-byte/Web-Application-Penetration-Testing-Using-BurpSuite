@@ -1,4 +1,4 @@
-# Lab 1: Remote Shell Execution via Web Shell Payload
+# Remote Shell Execution via Web Shell Payload
 
 **Status:** Solved
 **Severity:** High
@@ -22,13 +22,6 @@ code on the server.
    returned carlos's secret.
 5. Submitted the secret to solve the lab.
 
-## Evidence
-
-See `web_upload_evidence/`:
-- `testing_upload.png` — the avatar upload form.
-- `php_payload.png` — uploading `payload.php` in place of an image.
-- `carlos_secret.png` — the request/response that leaks the secret.
-- `solved.png` — lab solved confirmation.
 
 ## Fix
 
