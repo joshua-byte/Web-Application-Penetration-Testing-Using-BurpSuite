@@ -1,8 +1,5 @@
 # Remote Shell Execution via Web Shell Payload
 
-**Status:** Solved
-**Severity:** High
-
 ## Summary
 
 The avatar upload feature on the My Account page didn't validate the
